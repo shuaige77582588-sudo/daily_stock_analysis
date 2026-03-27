@@ -66,7 +66,7 @@ class EmailSender:
         
     def _is_email_configured(self) -> bool:
         """检查邮件配置是否完整（只需邮箱和授权码）"""
-        return bool(self._email_config['sender'] and self._email_config['password'])
+        return bool(self._email_config['1529450494@qq.com'] and self._email_config['jqbilzlhdmdhiedd'])
     
     def get_receivers_for_stocks(self, stock_codes: List[str]) -> List[str]:
         """
